@@ -1,0 +1,94 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+li,a, button {
+    text-decoration: none;
+   color: rgb(255, 255, 255);
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color:olivedrab;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+    margin-left: 10px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.nav_links{
+
+    list-style: none;
+}
+i{
+    margin-right: 10px;
+    border-radius: 70px;
+    padding: 9px 12px;
+  color: aliceblue;
+  background-color: black;
+}
+.nav_links li{
+    padding: 0 20px;
+    /* background-color: rgb(117, 172, 154); */
+    display: inline-block;
+}
+
+.cta{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   background-color: rgba(0,136,169,1);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+}
+.container{
+    margin: 50px;
+    height: 100%;
+    background-color: rgb(64, 39, 39);
+}
+.A{
+    height: 100vh;
+   
+    float: left;
+    width: 30%;
+    background-color: azure;
+}
+.container p{
+    
+    background-color: aquamarine;
+}
+.B{
+    flex-wrap: wrap;
+    display: flex;
+    float:right;
+    background-color: aquamarine;
+    width: 70%;
+    height: auto;
+}
+.B div{
+    
+    margin-left: 60px;
+    width: 25%;
+    margin-top: 50px;
+    height: 250px;
+    background-color: darkolivegreen;
+    
+}
+
+
+
+
+
+
+
+   
+ 
