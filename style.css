@@ -52,21 +52,29 @@ button {
 .menu li a {
   color: rgb(0, 0, 0);
 }
+.container {
+  width: 90%;
+
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+
+  column-gap: 25px;
+}
 .left-side {
-  margin: 60px 60px 0 60px;
-  float: left;
-  height: 100vh;
   background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
-  width: 30%;
 }
 .right-side {
-  margin: 0 60px 0 60px;
   display: grid;
-  column-gap: 20px;
-  row-gap: 20px;
-  grid-template-columns: 270px 270px 270px;
+  grid-template-columns: 1fr;
+  height: 100px;
+  background: linear-gradient(45deg, rgb(188, 223, 229), rgb(189, 185, 185));
 }
-.right-side-under {
+.footer {
+  background-color: aqua;
+  align-self: end;
+}
+/* .right-side-under {
   padding: 0 60px 60px 0;
   display: grid;
   column-gap: 10px;
@@ -116,4 +124,4 @@ button {
   border-radius: 20px;
   color: rgb(0, 0, 0);
   background-color: rgb(184, 247, 121);
-}
+} */
