@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(45deg, rgb(217, 234, 232), rgb(217, 234, 232));
+  background-color: whitesmoke;
 }
 .top {
   padding: 10px;
@@ -22,25 +22,28 @@ body {
 }
 li,
 a,
-h1,
 h2,
 button {
   list-style: none;
+  color: rgb(114, 186, 5);
 
   text-decoration: none;
   font-size: medium;
   font-family: Arial, sans-serif;
 }
+h1 {
+  color: rgb(54, 194, 54);
+}
 .nav-bar {
-  /* margin-top: 1rem; */
+  border-bottom: 1px solid greenyellow;
   width: 100%;
   display: flex;
   align-items: center;
   background: linear-gradient(
     45deg,
-    rgb(177, 243, 203),
-    rgb(159, 229, 160),
-    rgb(177, 243, 203)
+    rgb(255, 255, 255),
+    rgb(249, 252, 249),
+    rgb(255, 255, 255)
   );
   justify-content: space-around;
 }
@@ -52,29 +55,37 @@ button {
 .menu li a {
   color: rgb(0, 0, 0);
 }
-.container {
-  width: 90%;
-
-  margin: 25px auto;
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-
-  column-gap: 25px;
-}
 .left-side {
+  border-radius: 25px;
+  display: grid;
+  grid-template-rows: 90px 90px 90px;
+  margin: 60px 60px 0 60px;
+  float: left;
+  width: 90%;
+  height: 90vh;
   background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  width: 30%;
+}
+.sell {
+  background: linear-gradient(50deg, rgb(218, 255, 229), rgb(255, 255, 255));
+  align-self: start;
+  padding: 20px;
+  margin: 15px 100px 0px 15px;
+  background-color: darkgray;
+  border-radius: 20px;
+}
+.img {
+  width: 100px;
+  height: 100px;
 }
 .right-side {
+  margin: 0 60px 0 60px;
   display: grid;
-  grid-template-columns: 1fr;
-  height: 100px;
-  background: linear-gradient(45deg, rgb(188, 223, 229), rgb(189, 185, 185));
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 270px 270px 270px;
 }
-.footer {
-  background-color: aqua;
-  align-self: end;
-}
-/* .right-side-under {
+.right-side-under {
   padding: 0 60px 60px 0;
   display: grid;
   column-gap: 10px;
@@ -83,33 +94,45 @@ button {
 }
 .item {
   border-radius: 20px;
-  background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  background-color: rgb(239, 239, 239);
+  /* background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255)); */
   padding: 10px;
-  text-align: left;
+
   box-shadow: 1px solid rgb(51, 255, 65);
 }
-
+.waste {
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
 .waste li {
   margin: 20px;
 }
 .waste li a {
-  border-radius: 20px;
-  background-color: rgb(184, 247, 121);
+  border-bottom: 1px solid rgb(200, 200, 200);
+
   padding: 5px;
 }
-.fa-image {
-  border-radius: 15px;
-  height: 150px;
+.waste li .b {
+  color: black;
+  background-color: beige;
 }
-#fa-image {
+.fa-image {
+  width: 250px;
+  height: 200px;
   border-radius: 15px;
-  width: 200px;
-  height: 150px;
 }
 
+.materail {
+  width: 120px;
+  height: 120px;
+}
+.item1 {
+  width: 180px;
+  background-color: rgb(239, 239, 239);
+}
 .price {
   display: flex;
-
   justify-content: space-between;
   margin: 10px;
 }
@@ -124,4 +147,4 @@ button {
   border-radius: 20px;
   color: rgb(0, 0, 0);
   background-color: rgb(184, 247, 121);
-} */
+}
